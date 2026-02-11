@@ -4,7 +4,7 @@ metadata:
   name: my-app
 spec:
   containers:
-    - name: my-app
-      image: rccheck/hello-world:latest
-      ports:
-        - containerport: 8000
+  - name: my-app
+    image: rccheck/hello-world:latest
+    ports:
+    - containerPort: 8000
